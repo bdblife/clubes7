@@ -27,12 +27,12 @@ void draw() {
     
     //Draw values here!
     fill(255);
-    text(array[j], 72, 34+10*j);
+    text(array[j], 12, 34+10*j);
     
     //Get color to go with values
-    float c = map(array[j], 0, maxVal, 0, 360);
+    float c = map(array[j], 0, maxVal, 9, 360);
     stroke(c, 80, 90);
-    strokeWeight(40);
+    strokeWeight(70);
     
     //Draw a line
     line(xStart, 95+lineSpace*j, xStart+5*array[j], 25+lineSpace*j);
