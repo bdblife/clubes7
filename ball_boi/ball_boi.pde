@@ -1,6 +1,6 @@
 int x, y, wallLocation, velX;  
 void setup(){
- x = 100 ; y = 100; wallLocation = 600;  velX=5;
+ x = 100 ; y = 100; wallLocation = 500;  velX=5;
  size(1200, 600);
  }
 void draw(){
