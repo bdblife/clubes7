@@ -1,6 +1,6 @@
 ArrayList<Edge> edges;
 HashSet<Node> nodes;
-int numNodes = 7;
+int numNodes = 9;
 
 void setup(){
   size(1200, 500);
@@ -11,7 +11,7 @@ void init(){
   nodes = new HashSet();
   edges = new ArrayList<Edge>();
   
-  for(int i = 0; i<numNodes; i++){
+  for(int i = 2; i<numNodes; i++){
     Node n = new Node(str(i));
     nodes.add(n);
   }                                                                                                                                  
